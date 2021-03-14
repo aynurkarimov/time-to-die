@@ -1,6 +1,7 @@
 /* Reset */
 body {
   margin: 0;
+  min-height: -webkit-fill-available;
 
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -216,6 +217,24 @@ input[type=number] {
 }
 
 
+/* Footer */
+.footer {
+  margin-top: 10px
+}
+
+.footer a {
+  text-decoration: none;
+  color:rgba(34, 60, 80);
+}
+
+.footer__text {
+  font-size: .75em;
+  font-weight: 400;
+  color:rgb(124, 124, 124);
+  text-align: center;
+}
+
+
 /* Media */
 @media (max-width: 730px) {
 
@@ -256,9 +275,15 @@ input[type=number] {
 }
 
 @media (max-width: 410px) {
-
   /* Life */
   .life-header__text {
-    font-size: .76em;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 330px) {
+  /* Life */
+  .life-header__text {
+    font-size: .9em;
   }
 }
