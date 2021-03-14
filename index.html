@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Check out how much time you have until you die</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+
+<!-- Life -->
+<div class="life">
+    <div class="container">
+        <div class="life-header">
+            <h2 class="life-header__text">Our lives aren't unlimited.</h2>
+            <h2 class="life-header__text">Don't waste time doing unnecessary things.</h2>
+            <h2 class="life-header__text">Check out how much time you have until you die.</h2>
+        </div>
+        
+        <!-- Inner -->
+        <div class="life__inner">
+
+            <!-- Data -->
+            <div class="data">
+                <div class="data__age">
+                    <h4 class="data__text">Your age:</h4>
+                    <input id="data__age-inp" type="number" min='0' max='100' value="30">
+                </div>
+                <div class="data__sex">
+                    <h4 class="data__text">Sex:</h4>
+                    <select id="data__select-sex">
+                        <option value='male'>Male</option>
+                        <option value='female'>Female</option>
+                    </select>
+                </div>
+                <div class="data__country">
+                    <h4 class="data__text"> Country where you living:</h4>
+                    <select id="list-countries">
+                        <option value="belarus">Belarus</option>
+                        <option value="russia" selected>Russia</option>
+                        <option value="turkey">Turkey</option>
+                        <option value="ukraine">Ukraine</option>
+                        <option value="uk">UK</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <!-- Info -->
+            <div class="life__result">
+   
+                <!-- Graph -->
+                <div class="life__graph">
+                    <div class="life__graph-header">
+                        <div class="life__graph-wrap-life">
+                            <span class="circle-life">circle for lived</span>
+                            <span class="life__graph-life">Lived</span>
+                        </div>
+                        <div class="life__graph-wrap-left">
+                            <span class="circle-left">circle for left</span>
+                            <span class="life__graph-left">Left</span>
+                        </div>
+                    </div>
+                    <div>
+                    <div class="life__bar">
+                        <div class="life__bar-green">green</div>
+                    </div>
+                    </div>
+                </div><!--graph-->
+
+
+                <!-- Text -->
+                <div class="life__text">
+                    <h3 id="life__text-results">Results of your lifespan:</h3>
+                    <!-- Lived -->
+                    <div class="life__text-lived">
+                        <div class="life__text-string">
+                            You've already lived:
+                        </div>
+                        <div class="life__text-out life-out">
+                            43.99 %
+                        </div>
+                    </div>
+                    <!-- Left -->
+                    <div class="life__text-left">
+                        <div class="life__text-string">
+                            You've only got:
+                        </div>
+                        <div class="life__text-out left-out">
+                            56.01 %
+                        </div>
+                    </div>
+                    <!-- Days -->
+                    <div class="life__text-days">
+                        <div class="life__text-string">
+                            That is exactly:
+                        </div>
+                        <div class="life__text-out days-out">
+                            13943 days
+                        </div>
+                    </div>
+                </div><!--life__text-->
+                
+            </div><!--life__result-->
+
+
+        </div><!--inner-->
+    </div><!--container-->
+</div><!--loan-->
+
+<script src="app.js"></script>
+</body>
+</html>
