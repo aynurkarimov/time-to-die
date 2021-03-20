@@ -1,3 +1,4 @@
-# time-to-die
-A javascript app that shows you how much time you have until you die.<br/>
-Uses https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy
+###### *time-to-die*
+____
+### A javascript app that shows you how much time you have until you die.<br/>
+### Uses https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy
